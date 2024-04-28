@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone Samsung Galaxy S20",
+    "description": "Elegante smartphone con pantalla AMOLED de 6.2 pulgadas, cámara de alta resolución y rendimiento potente.",
+    "code": "SSG20",
+    "price": 799.99,
+    "status": true,
+    "stock": 50,
+    "category": "Electrónica",
+    "thumbnail": [
+      "https://riiing.com.ar/wp-content/uploads/2023/06/S20-01.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Laptop Dell XPS 15",
+    "description": "Potente laptop con pantalla táctil de 15 pulgadas, procesador Intel Core i7 y gráficos NVIDIA GeForce GTX.",
+    "code": "DLXPS15",
+    "price": 1499.99,
+    "status": true,
+    "stock": 30,
+    "category": "Computadoras",
+    "thumbnail": [
+      "https://http2.mlstatic.com/D_NQ_NP_740720-MLU71678662092_092023-O.webp"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Televisor LG OLED CX",
+    "description": "Televisor OLED de 55 pulgadas con resolución 4K, inteligencia artificial y tecnología Dolby Vision IQ.",
+    "code": "LGOCX55",
+    "price": 1999.99,
+    "status": true,
+    "stock": 20,
+    "category": "Electrodomésticos",
+    "thumbnail": [
+      "https://http2.mlstatic.com/D_NQ_NP_738306-MLA44160962846_112020-O.webp"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Cafetera Nespresso Vertuo",
+    "description": "Cafetera automática con tecnología de cápsulas, capacidad para preparar diferentes tamaños de café y diseño elegante.",
+    "code": "NVPV120",
+    "price": 249.99,
+    "status": true,
+    "stock": 15,
+    "category": "Electrodomésticos",
+    "thumbnail": [
+      "https://www.nespresso.com/coffee-blog/sites/default/files/2023-01/vertuo-next-d-matt-black-365x308.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Reproductor de música Bose SoundLink",
+    "description": "Reproductor de música portátil con conectividad Bluetooth, sonido envolvente y diseño compacto.",
+    "code": "BSLS20",
+    "price": 149.99,
+    "status": true,
+    "stock": 40,
+    "category": "Electrónica",
+    "thumbnail": [
+      "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/speakers/soundlink_mini_ii/product_silo_images/soundlink_mini_II_uno_ltd_ed_EC.psd/_jcr_content/renditions/cq5dam.web.320.320.png"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Smartwatch Apple Watch Series 6",
+    "description": "Smartwatch con pantalla Retina siempre activa, monitorización de la salud y compatibilidad con aplicaciones de fitness.",
+    "code": "AWS6",
+    "price": 399.99,
+    "status": true,
+    "stock": 25,
+    "category": "Electrónica",
+    "thumbnail": [
+      "https://www.apple.com/newsroom/images/product/watch/standard/Apple_delivers-apple-watch-series-6_09152020_big.jpg.large.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Cámara Canon EOS R5",
+    "description": "Cámara mirrorless de alta resolución con sensor CMOS de fotograma completo de 45 megapíxeles y grabación de vídeo en 8K.",
+    "code": "CCER5",
+    "price": 3899.99,
+    "status": true,
+    "stock": 10,
+    "category": "Electrónica",
+    "thumbnail": [
+      "https://www.megatone.net/images//Articulos/zoom2x/204/MKT0024VIS-1.jpg"
+    ]
+  }
+]

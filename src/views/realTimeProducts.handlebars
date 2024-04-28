@@ -1,0 +1,56 @@
+<h1>Productos por webSockets</h1>
+<div id="productList">
+    {{#each productos}}
+    <div id="product-{{this.id}}">
+        <h3>{{this.title}}</h3>
+        <img src="{{this.thumbnail}}" alt="{{this.title}}">
+        <p>Id: {{this.id}}</p>
+        <p>Description: {{this.description}}</p>
+        <p>Category: {{this.category}}</p>
+        <p>Price: {{this.price}}</p>
+        <p>Code: {{this.code}}</p>
+        <p>Stock: {{this.stock}}</p> 
+    </div>
+    {{/each}}
+</div>
+
+<style>
+
+    body {
+        background-color: #6de4a9; 
+    }
+
+    #productList {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+    }
+    
+
+    #productList > div {
+        background-color: #f9f9f9;
+        border: 1px solid #999; 
+        border-radius: 5px;
+        padding: 10px;
+    }
+ 
+    h1,h3 {
+        text-align: center; 
+    }
+
+    #productList p {
+        margin-bottom: 5px; 
+        font-size: 15px; 
+    }
+
+    img {
+        width: 250px; 
+        height: 250px; 
+        display: block; 
+        margin: auto; 
+    }
+</style>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
+

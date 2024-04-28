@@ -1,0 +1,50 @@
+<h1>Productos por http</h1>
+<div class="product-list">
+    {{#each productos}}
+    <div>
+            <h3>Title: {{this.title}}</h3>
+            <img src="{{this.thumbnail}}" alt="{{this.title}}">
+            <p>Id: {{this.id}}</p>
+            <p>Description: {{this.description}}</p>
+            <p>Category: {{this.category}}</p>
+            <p>Price: {{this.price}}</p>
+            <p>Code: {{this.code}}</p>
+            <p>Stock: {{this.stock}}</p>      
+    </div>
+    {{/each}}
+</div>
+
+<style>
+    body {
+        background-color: #e0f2f1; 
+    }
+
+    .product-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+    }
+
+    .product-list > div {
+        background-color: #f9f9f9;
+        border: 1px solid #999; 
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    h1,h3 {
+        text-align: center; 
+    }
+
+    .product-list p {
+        margin-bottom: 5px; 
+        font-size: 15px; 
+    }
+
+    img {
+        width: 250px; 
+        height: 250px; 
+        display: block; 
+        margin: auto; 
+    }
+</style>
