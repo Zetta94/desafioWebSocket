@@ -1,20 +1,43 @@
-# Instrucciones de Uso
+# Desafio - CoderHouse Backend WebSockets
 
-## Pasos a seguir e indicaciones
+Este proyecto es parte del Desafío Backend 2024 de CoderHouse. Consiste en una aplicación web para gestionar productos en tiempo real mediante HTTP y WebSockets.
 
-1. Para levantar el servidor, ejecute el siguiente comando: `npm start`
+## Pasos a seguir
 
-2. No se realizó un formulario dentro de `realTimeProducts.handlebars` porque se implementó la conexión de socket emits con HTTP.
+1. **Levantar el servidor**: Ejecute el comando `npm start` para iniciar el servidor.
 
-3. Para poder hacer la conexión de socket emits con HTTP, se exportó la función `socketServer` de `app.js`. Luego, se importó en `views.router.js` para poder utilizarla en los métodos POST y DELETE.
+2. **Acceso a la aplicación**:
+   - Para ver los productos mediante HTTP, acceda a: [http://localhost:8080/](http://localhost:8080/)
+   - Para ver los productos en tiempo real mediante WebSockets, acceda a: [http://localhost:8080/realtimeproducts](http://localhost:8080/realtimeproducts)
 
-4. Para corroborar que el servidor haya conectado con el cliente, en la consola del servidor se muestra un mensaje que dice “Nuevo Cliente Conectado, id: ” junto al ID del cliente.
+3. **Funcionalidades**:
+   - La aplicación permite agregar y eliminar productos en tiempo real mediante HTTP y WebSockets.
+   - No se implementó un formulario dentro de `realTimeProducts.handlebars` porque se implementó la conexión de sockets con HTTP.
+
+4. **Conexión de sockets con HTTP**:
+   - Se exportó la función `socketServer` desde `app.js` y se importó en `views.router.js` para utilizarla en los métodos POST y DELETE.
+
+5. **Verificación de conexión**:
+   - En la consola del servidor, se muestra un mensaje cada vez que un nuevo cliente se conecta, junto con su ID.
 
 ## API
 
 La API cuenta con los siguientes métodos:
 
-- **GET**: [http://localhost:8080/](http://localhost:8080/) (Ruta para ver los productos por HTTP)
-- **GET**: [http://localhost:8080/realtimeproducts](http://localhost:8080/realtimeproducts) (Ruta para ver los productos por webSockets)
-- **POST**: [http://localhost:8080/realtimeproducts](http://localhost:8080/realtimeproducts) (Ruta para ingresar un nuevo producto a través de Postman)
-- **DELETE**: [http://localhost:8080/realtimeproducts/:pid](http://localhost:8080/realtimeproducts/:pid) (Ruta para eliminar un producto con un ID específico)
+- **GET**: `/` - Ruta para ver los productos por HTTP.
+- **GET**: `/realtimeproducts` - Ruta para ver los productos por WebSockets.
+- **POST**: `/realtimeproducts` - Ruta para ingresar un nuevo producto a través de Postman.
+- **DELETE**: `/realtimeproducts/:pid` - Ruta para eliminar un producto con un ID específico.
+
+## Capturas de pantalla
+
+<div style="width: 1000px; margin: 0 auto;">
+    <img src="image-1.png" alt="Texto alternativo">
+</div>
+</br>
+<div style="width: 1000px; margin: 0 auto;">
+    <img src="image.png" alt="Texto alternativo">
+</div>
+
+
+
